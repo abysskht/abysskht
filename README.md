@@ -5,16 +5,12 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abissaldev&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
+<div style="display: inline_block"><br>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,html,css,js,typescript,python,react,cpp,linux,neovim,vscode" />
   </a>
-</p
-
-  ##
- 
-<div> 
- 
-  ![Snake animation](https://github.com/abissaldev/abissaldev/blob/output/github-contribution-grid-snake.svg)
- 
+</p>
 </div>
+
+![Snake animation](https://github.com/abissaldev/abissaldev/blob/output/github-contribution-grid-snake.svg)
