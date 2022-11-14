@@ -1,4 +1,4 @@
-## hello i'm joão vitor, junior full stack developer
+## 👋 hello i'm joão vitor, junior full stack developer
 <div align="center">
   <a href="https://github.com/Ocults">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ocults&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
@@ -8,7 +8,7 @@
 <div style="display: inline_block"><br>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,html,css,js,typescript,python,sql,react,cpp,linux,neovim,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,html,css,js,typescript,python,mysql,react,cpp,linux,neovim,vscode" />
   </a>
 </p>
 </div>
