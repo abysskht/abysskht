@@ -1,9 +1,24 @@
-- name: generate-snake-game-from-github-contribution-grid
-  uses: Platane/snk@v3.0.0
-  with:
-    github_user_name: ${{ github.repository_owner }}
-    outputs: |
-      github-snake.svg?palette=github
-      github-snake-dark.svg?palette=github-dark&color_snake=blue
-      github-snake-light.svg?palette=github-light&color_snake=#7845ab
-      ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+name: Snake Game Generator
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-snake-game:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake Game
+        uses: Platane/snk@v3.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-snake.svg?palette=github
+            github-snake-dark.svg?palette=github-dark&color_snake=blue
+            github-snake-light.svg?palette=github-light&color_snake=#7845ab
+            ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
